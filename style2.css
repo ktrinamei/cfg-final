@@ -1,0 +1,185 @@
+body {
+  margin: 0 auto;
+  font-family: "Staatliches", cursive;
+  height: 100%;
+}
+
+.trips-head {
+  color: #ffff;
+  background-color: black;
+  font-family: "Staatliches", cursive;
+  padding: 10px;
+  position: fixed;
+  text-align: center;
+  margin: 0 auto;
+  width: 100%;
+  z-index: 1;
+}
+
+.topnav,
+ul {
+  position: fixed;
+  top: 58px;
+  color: #ffff;
+  list-style-type: circle;
+  font-family: "Staatliches", cursive;
+  margin: 0 auto;
+  padding: 0;
+  z-index: 1;
+  width: 100%;
+}
+
+.home,
+.itinerary,
+.bucket-list,
+.trips {
+  text-decoration: none;
+  color: #ffff;
+  font-size: 20px;
+}
+
+.home:hover,
+.itinerary:hover,
+.bucket-list:hover,
+.trips:hover {
+  color: grey;
+}
+
+.nav,
+li {
+  display: inline;
+  margin: 0 auto;
+  text-decoration: none;
+}
+
+.nav,
+a {
+  display: inline-block;
+  margin: 0 auto;
+  padding: 2px;
+  text-align: center;
+  background-color: black;
+  color: #ffff;
+}
+
+.nav {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+}
+
+.page2headimg {
+  display: block;
+  margin: 0 auto;
+  background-image: url("./src/tokyo-picture.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 50%;
+}
+
+.tokyo-title {
+  text-align: center;
+  position: relative;
+  top: -155px;
+  margin: 30px;
+  color: #ffff;
+  font-size: 80px;
+}
+
+.popular-title {
+  margin: 0 auto;
+  display: block;
+  text-align: center;
+  position: relative;
+  top: -125px;
+  font-size: 40px;
+  text-decoration: underline;
+}
+
+#locations {
+  margin: 0 auto;
+  display: block;
+  max-width: 800px;
+  position: relative;
+  top: -108px;
+}
+
+.tokyo-video {
+  display: block;
+  margin: 0 auto;
+  position: relative;
+  top: -138px;
+}
+
+.places-title {
+  text-decoration: underline;
+  font-size: 30px;
+}
+
+.tokyo-info {
+  position: relative;
+  top: -95px;
+  margin: 0 auto;
+  display: block;
+  text-align: center;
+}
+
+.museum-link,
+.shopping-link,
+.views-link {
+  color: #fff;
+  border-radius: 10px;
+  padding: 10px;
+  text-decoration: none;
+}
+
+.museum-link:hover,
+.shopping-link:hover,
+.views-link:hover {
+  color: gray;
+}
+
+table {
+  table-layout: auto;
+  width: 70%;
+  text-align: left;
+  border: 1px solid;
+  border-collapse: collapse;
+  margin: 0 auto;
+}
+
+th {
+  font-size: 20px;
+  text-align: center;
+  text-decoration: underline;
+}
+
+td {
+  text-align: center;
+}
+
+th,
+td {
+  border: 3px solid;
+  padding: 5px;
+}
+
+/* FOOTER */
+footer {
+  background-color: black;
+  font-family: "Staatliches", cursive;
+  color: #ffff;
+  text-align: center;
+  padding: 5px;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  z-index: 1;
+}
+
+#github-coder {
+  font-size: 15px;
+}

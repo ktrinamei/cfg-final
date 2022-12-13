@@ -1,0 +1,223 @@
+body {
+  margin: 0 auto;
+  font-family: "Staatliches", cursive;
+  height: 100%;
+}
+h1 {
+  color: #ffff;
+  background-color: black;
+  font-family: "Staatliches", cursive;
+  padding: 10px;
+  position: fixed;
+  text-align: center;
+  margin: 0 auto;
+  width: 100%;
+  z-index: 1;
+}
+
+#main-title {
+  font-size: 50px;
+}
+
+#page-title {
+  margin: 0 auto;
+  text-align: center;
+  font-family: "Staatliches", cursive;
+  display: block;
+  font-size: 70px;
+  position: relative;
+  top: 145px;
+}
+
+#page-sub-title {
+  margin: 0 auto;
+  text-align: center;
+  display: block;
+  font-family: "Staatliches", cursive;
+  position: relative;
+  top: 153px;
+  font-size: 30px;
+}
+
+/* NAVIGATION */
+.topnav,
+ul {
+  position: fixed;
+  top: 58px;
+  color: #ffff;
+  list-style-type: circle;
+  font-family: "Staatliches", cursive;
+  margin: 0 auto;
+  padding: 0;
+  z-index: 1;
+  width: 100%;
+}
+
+.home,
+.itinerary,
+.bucket-list,
+.trips {
+  text-decoration: none;
+  color: #ffff;
+  font-size: 20px;
+}
+
+.home:hover,
+.itinerary:hover,
+.bucket-list:hover,
+.trips:hover {
+  color: grey;
+}
+
+.nav,
+li {
+  display: inline;
+  margin: 0 auto;
+  text-decoration: none;
+}
+
+.nav,
+a {
+  display: inline-block;
+  margin: 0 auto;
+  padding: 2px;
+  text-align: center;
+  background-color: black;
+  color: #ffff;
+}
+
+/* IMAGES */
+.headimg {
+  /* background-image: url("./src/city-view.jpeg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; */
+  height: 100%;
+  position: relative;
+  top: 27px;
+}
+
+.me-img {
+  display: block;
+  position: relative;
+  top: 195px;
+  margin: 0 auto;
+}
+
+.city-head {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  position: relative;
+  top: -130px;
+  font-size: 36px;
+}
+
+/* CONTENT */
+
+main {
+  display: block;
+}
+.introduction {
+  text-align: center;
+  margin: 0 auto;
+  position: relative;
+  top: -600px;
+  color: #ffff;
+  font-size: 25px;
+}
+
+#search-city {
+  margin: 0 auto;
+  text-align: center;
+  position: relative;
+  top: -730px;
+}
+
+#search-input {
+  width: 260px;
+  padding: 10px;
+  font-size: 15px;
+  border-radius: 10px;
+  border: none;
+}
+
+#search-button {
+  margin: 0 auto;
+  text-align: center;
+  padding: 10px;
+  font-size: 15px;
+  border-radius: 10px;
+  border: none;
+}
+
+#search-city {
+  margin: 0 auto;
+  text-align: center;
+  display: block;
+  position: relative;
+  top: -450px;
+}
+
+.sign-up {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  position: relative;
+  top: -204px;
+  color: white;
+  font-size: 55px;
+  text-decoration: none;
+  font-family: "Staatliches", cursive;
+}
+
+label {
+  padding: 10px;
+  font-size: 25px;
+  font-weight: bold;
+  text-align: left;
+  font-family: "Staatliches", cursive;
+}
+
+#user-sign-up {
+  display: inline;
+  margin: 0 auto;
+  position: relative;
+  top: -150px;
+}
+
+.form-group {
+  margin: 0 auto;
+  width: 350px;
+  padding: 10px;
+  position: relative;
+  top: -170px;
+}
+
+#submitButton {
+  margin: 0 auto;
+  display: block;
+  position: relative;
+  top: -140px;
+  width: 200px;
+  background-color: black;
+  border: none;
+  font-family: "Staatliches", cursive;
+}
+
+/* FOOTER */
+footer {
+  background-color: black;
+  font-family: "Staatliches", cursive;
+  color: #ffff;
+  text-align: center;
+  padding: 5px;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  z-index: 1;
+}
+
+#github-coder {
+  font-size: 15px;
+}
